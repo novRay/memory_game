@@ -1,0 +1,52 @@
+scoreboard {
+	background-color: rgb(238, 163, 176);
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+			justify-content: space-between;
+	-ms-flex-align: center;
+			align-items: center;
+	color: black;
+	padding: 0 15px;
+	border-radius: 0 0 10px 10px;
+}
+
+scoreboard li {
+	list-style: none;
+}
+
+scoreboard nav {
+	display: flex;
+}
+
+scoreboard nav li {
+  margin: 0 15px;
+}
+
+scoreboard nav li:first-child {
+  margin-left: 0;
+}
+
+scoreboard nav li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 1000px) {
+	scoreboard {
+		padding: 5px 20px;
+	}
+}
+@media (max-width: 700px) {
+	scoreboard {
+		flex-direction: column;
+	}
+	scoreboard h2 {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-height: 500px) {
+	scoreboard {
+		padding: 5px 10px;
+	}
+}

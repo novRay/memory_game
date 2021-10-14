@@ -1,0 +1,25 @@
+.card-container {
+  margin: 10px;
+  height: 150px;
+  min-width: 100px;
+  width: 10%;
+  background-color: grey;
+  border: 6px solid grey;
+  border-radius: 25px;
+  display: inline-block;
+	opacity: 60%;
+}
+
+@media (max-width: 700px) {
+	.card-container {
+		height: 80px;
+		min-width: 60px;
+	}
+}
+
+@media (max-height: 500px) {
+	.card-container {
+		height: 80px;
+		min-width: 50px;
+	}
+}
