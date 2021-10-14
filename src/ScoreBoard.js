@@ -11,7 +11,7 @@ class ScoreBoard extends Component {
 				<nav>
 					<li>Best Record: {this.props.bestRecord}</li>
 					<li>Number of Turns: {this.props.numTurns}</li>
-					<li>Mathched Pairs: {this.props.matchedPairs}</li>
+					<li>Matched Pairs: {this.props.matchedPairs}</li>
 				</nav>
 			</scoreboard>
 		)
